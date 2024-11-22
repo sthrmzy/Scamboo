@@ -1,0 +1,137 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Cor de fundo e tipografia */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ab505e, #607873);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o footer fique no final da página */
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3b3b3b;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  header .logo {
+    font-size: 32px;
+    font-family: 'Georgia', serif;
+    color: #d9a071;
+  }
+  
+  header div a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  header div a:hover {
+    color: #d9a071;
+  }
+  
+  /* Seção hero */
+  .hero-section {
+    text-align: center;
+    padding: 100px 20px;
+    flex: 1; /* Garante que a seção hero ocupe o espaço disponível */
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons {
+    margin-top: 30px;
+  }
+  
+  .cta-buttons button {
+    background-color: #d9a071;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .cta-buttons button.secondary {
+    background-color: #a5b090;
+  }
+  
+  .cta-buttons button.explore {
+    background-color: #cfc88f;
+  }
+  
+  .cta-buttons button:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* Seção de recursos */
+  .features {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 30px;
+    padding: 0 20px;
+  }
+  
+  .features div {
+    text-align: center;
+    max-width: 250px;
+  }
+  
+  .features div h3 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .features div img {
+    width: 270px;
+    margin-bottom: 15px;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #3b3b3b;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    margin-top: auto; /* Garante que o footer fique colado no final da página */
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #d9a071;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+
+  
