@@ -65,15 +65,15 @@ Este projeto é open-source e está em constante evolução! Se você quer contr
 - Conhecimento básico de desenvolvimento web.
 - Experiência com tecnologias como React, Node.js, MongoDB, ou outras ferramentas da stack.
 
-##📜 Licença
+## 📜 Licença
 Este projeto é licenciado sob a MIT License.
 
-##🤝 Contribuidores
+## 🤝 Contribuidores
 Agradecemos as contribuições de todos que ajudam a tornar este projeto possível. Se você gostaria de se tornar um contribuinte ou tem sugestões para melhorar o projeto, entre em contato ou crie uma issue.
 
-##💡 Ideias para o Futuro
+## 💡 Ideias para o Futuro
 Scamboo está em constante evolução, e temos várias ideias para aprimorar a plataforma:
 
-1. Integração com Redes Sociais para facilitar o compartilhamento de itens.
-2. Gamificação para incentivar mais trocas.
-3. Sistema de Doações para permitir que usuários doem itens sem a expectativa de uma troca.
+- Integração com Redes Sociais para facilitar o compartilhamento de itens.
+- Gamificação para incentivar mais trocas.
+- Sistema de Doações para permitir que usuários doem itens sem a expectativa de uma troca.
