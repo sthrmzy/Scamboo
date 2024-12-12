@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+:root{
+    --purple:#2F192E;
+    --purple-light:#30192d;
+    --dark-blue:#012677;
+    --blue:#5c65c0;
+    --skyblue :#00b4fc;
+    --light-blue:#005bc5;
+    --dark-pink:#f64c57;
+    --dark-magenta:#e21b5a;
+    --light-green:#61e2c2;
+    --light-purple:#d9abff;
+}
+
+header {
+    margin-bottom: 60px;
+    text-align: left; /* Alinha o botão à direita */
+}
+
+
+#botao{
+        background-color: #F15F26; /* Cor do fundo */
+        color: white; /* Cor do texto */
+        font-size: 16px;
+        padding: 10px 20px; /* Espaçamento interno do botão */
+        border: none;
+        border-radius: 50px; /* Arredonda o botão */
+        cursor: pointer;
+        text-decoration: none; /* Remove o sublinhado do link */
+        transition: background-color 0.3s; /* Transição suave */
+        margin-top: 20px;
+}
+    /* Efeito ao passar o mouse sobre o botão */
+#botao:hover {
+        background-color: #367a36; /* Cor de fundo ao passar o mouse */
+    }
+
+
+/* Estilos para o botão de voltar */
+.btn-voltar {
+    background-color: #F15F26; /* Cor do fundo */
+    color: white; /* Cor do texto */
+    font-size: 16px;
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none;
+    border-radius: 50px; /* Arredonda o botão */
+    cursor: pointer;
+    text-decoration: none; /* Remove o sublinhado do link */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.btn-voltar:hover {
+    background-color: #367a36; /* Cor de fundo ao passar o mouse */
+}
+
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    margin: 70px;
+    background: linear-gradient(245.59deg, #f0f0d8 0%, #c0d860 28.53%, #FDF8F2 72.52%);
+}
+.container{
+    margin: 70px 0 100px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+.profile-card{
+    background: #ffffff;
+    width:400px;
+    padding: 3rem;
+    border-radius: 10px;
+    min-height: 400px;
+    position: relative;
+    color:#000000;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+}
+.profile-card .profile-pic{
+    margin-top: 15px;
+    overflow: hidden;
+}
+.profile-card .profile-pic img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.profile-card .profile-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+}
+.profile-details .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-details .intro h2{
+    margin-top: 20px;
+}
+.profile-details .intro h4{
+    background: #ffffff;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 8px;
+}
+.profile-details .intro .social{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.profile-details .intro .social i{
+    color:#000000;
+    font-size: 16px;
+    background-color:#ffffff;
+    margin: 5px;
+    height: 35px;
+    width:35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.profile-details .intro .social i:hover{
+    transform: scale(1.2);
+    border:1px solid rgba(255,255,255,0.3);
+}
+.profile-details .contact-info{
+    background-color: #caf8a5;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+.profile-details .contact-info .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.contact-info .row .icon{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+    color:#000000;
+    transition: 0.5s;
+}
+.row .icon:hover{
+    transform:scale(1.2);
+    border:1px solid rgba(255,255,255,0.1);
+}
+.row .content{
+    min-width: 70%;
+}
+.row .content span{
+    font-size: 12px;
+}
+.download-btn{
+    background: linear-gradient(45deg, #F15F26,#F15F26);
+    color:#000000;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    border:none;
+}
+
+
+/*****about section ****/
+.about{
+    background-color: #ffffff;
+    max-width: 800px;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+}
+.about h1{
+    color:#000000;
+    margin-bottom: 1.1rem;
+    position: relative;
+    display: inline-block;
+    font-size: 3.5rem;
+}
+.about h1::after{
+    position: absolute;
+    content: "";
+    top:50%;
+    right:-50%;
+    width:45%;
+    height: 3px;
+    background: linear-gradient(45deg, #f64c57,#e21b5a);
+}
+.about h2{
+    color:#000000;
+    font-size: 2rem;
+    margin:0.5rem 0;
+}
+.about p{
+    color:#555;
+    margin:1.5rem 0;
+}
+.about .work{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+}
+.work .workbox{
+    display: flex;
+    justify-content: space-between;
+    border-radius:8px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+    padding: 1rem;
+    margin:1rem;
+    align-items: center;
+    align-content: center;
+
+}
+.work .workbox .desc{
+    width:75%;
+    color:#555;
+}
+.work .workbox .desc h3{
+    color:#000000;
+    margin-bottom: 3px;
+}
+.work .workbox .desc p{
+    margin:0px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.work .workbox .desc p img{
+    height: auto;
+    width: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    margin: 0 0 0 75px;
+}
+
+.work .workbox .desc p .btn-voltar{
+    margin: 10px 0 0 75px;
+}
+
+
+
+
+
+
+
+/***Responsive Design ***/
+@media(max-width:768px)
+{
+    .about{
+        width: 1005;
+        max-width: 400px;
+        padding:1rem;
+        margin:1rem;
+
+    }
+    .about h1{
+        font-size: 2.2rem;
+    }
+    .about .work{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,auto);
+    }
+}
