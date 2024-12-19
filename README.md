@@ -13,6 +13,17 @@ No Scamboo, qualquer pessoa pode cadastrar itens que não utilizam mais e trocar
 - **Fomentar o compartilhamento e a troca entre pessoas.**
 - **Ajudar usuários a obterem o que precisam sem gastos financeiros.**
 
+## Preview
+
+![Scamboo](https://github.com/sthrmzy/Scamboo/blob/main/image/3778BDEC-D8F7-4881-B58D-9ABCCA10C6BF.png)
+
+---
+## Deploy
+
+O projeto está disponível em [
+Scamboo](https://sthrmzy.github.io/Scamboo/) para visualização.
+
+
 ## 🌱 Funcionalidades
 
 ### **Cadastro de Itens**
@@ -51,22 +62,6 @@ Ao incentivar a troca de itens ao invés da compra, Scamboo não só economiza d
 - **API de Geolocalização**: Para exibir itens próximos ao usuário
 - **Integração de Chat**: Socket.io para comunicação em tempo real
 
-## 🛠 Como Contribuir
-
-Este projeto é open-source e está em constante evolução! Se você quer contribuir, siga os passos abaixo:
-
-1. Faça um fork deste repositório.
-2. Crie uma branch com suas modificações (`git checkout -b minha-nova-feature`).
-3. Faça commit das suas alterações (`git commit -m 'Adicionando uma nova feature'`).
-4. Envie para o branch principal (`git push origin minha-nova-feature`).
-5. Abra um pull request.
-
-### **Requisitos para Contribuir:**
-- Conhecimento básico de desenvolvimento web.
-- Experiência com tecnologias como React, Node.js, MongoDB, ou outras ferramentas da stack.
-
-## 📜 Licença
-Este projeto é licenciado sob a MIT License.
 
 ## 🤝 Contribuidores
 Agradecemos as contribuições de todos que ajudam a tornar este projeto possível. Se você gostaria de se tornar um contribuinte ou tem sugestões para melhorar o projeto, entre em contato ou crie uma issue.
